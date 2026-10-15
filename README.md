@@ -2,7 +2,7 @@
 
 Lodestar is a VS Code extension for reading code you didn't write and reviewing code before it goes in. It uses the models you already have in Copilot Chat.
 
-It costs $10, once, plus tax where your country charges it. There's no subscription and no trial. One key works on all your machines and doesn't expire. [Buy Lodestar](https://buy.polar.sh/polar_cl_P6wdx4gfJlj9ZB8GT7sUdyGNjeVMac2CZ9G4K1M8gFz)
+You get 3 free codemap or review runs (plus hover explanations while you try it) to see how it works on your own codebase. After that it costs $5, once, plus tax where your country charges it. No subscription: one key works on all your machines and doesn't expire. [Buy Lodestar ($5)](https://buy.polar.sh/polar_cl_P6wdx4gfJlj9ZB8GT7sUdyGNjeVMac2CZ9G4K1M8gFz)
 
 ## Codemaps
 
@@ -30,9 +30,8 @@ Dependencies a change adds are checked against OSV.dev for known vulnerabilities
 
 ## Getting started
 
-1. [Buy Lodestar](https://buy.polar.sh/polar_cl_P6wdx4gfJlj9ZB8GT7sUdyGNjeVMac2CZ9G4K1M8gFz) and run **Lodestar: Enter License Key** with the key from your receipt.
-2. Open Lodestar from the activity bar and run **Lodestar: Choose Models and Thinking Effort**. A fast model does hovers, a stronger one does maps and reviews.
-3. Ask something, press **Review changes**, or hover some code.
+1. Open Lodestar from the activity bar and ask how something works, press **Review changes**, or hover some code. Lodestar uses your default Copilot Chat model automatically, or you can run **Lodestar: Choose Models and Thinking Effort** to pick specific models.
+2. Try 3 maps or reviews for free. To unlock unlimited use, [buy Lodestar ($5)](https://buy.polar.sh/polar_cl_P6wdx4gfJlj9ZB8GT7sUdyGNjeVMac2CZ9G4K1M8gFz) and run **Lodestar: Enter License Key** with the key from your receipt.
 
 In Copilot Chat, `@lodestar` makes a map, and `/review` and `/explain` work there too.
 
