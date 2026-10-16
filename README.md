@@ -1,6 +1,6 @@
 # Lodestar
 
-Lodestar is a VS Code extension for reading code you didn't write and reviewing code before it goes in. It uses the models you already have in Copilot Chat.
+Lodestar is an extension for VS Code, Cursor and Antigravity IDE for reading code you didn't write and reviewing code before it goes in. It uses the models you already pay for: Copilot Chat's in VS Code, your Cursor plan's in Cursor, your Antigravity plan's in Antigravity IDE, or any model API with your own key.
 
 You get 3 free codemap or review runs (plus hover explanations while you try it) to see how it works on your own codebase. After that it costs $5, once, plus tax where your country charges it. No subscription: one key works on all your machines and doesn't expire. [Buy Lodestar ($5)](https://buy.polar.sh/polar_cl_P6wdx4gfJlj9ZB8GT7sUdyGNjeVMac2CZ9G4K1M8gFz)
 
@@ -31,6 +31,8 @@ Dependencies a change adds are checked against OSV.dev for known vulnerabilities
 ## Getting started
 
 1. Open Lodestar from the activity bar and ask how something works, press **Review changes**, or hover some code. Lodestar uses your default Copilot Chat model automatically, or you can run **Lodestar: Choose Models and Thinking Effort** to pick specific models.
+
+   In **Cursor**, Lodestar uses your Cursor plan's models through Cursor's official CLI (`agent acp`) with no setup; run **Lodestar: Use Cursor Models** to install or sign in to the CLI, in Cursor or in VS Code. In **Antigravity IDE**, run **Lodestar: Use Antigravity Models**: it installs [Antigravity Models](https://open-vsx.org/extension/DenizhanDaklr/antigravity-acp-for-copilot) and signs you in with Google. Elsewhere, **Lodestar: Set Up a Model API** works with OpenRouter, OpenAI, Gemini, DeepSeek, GLM, Kimi, MiniMax, Ollama or LM Studio.
 2. Try 3 maps or reviews for free. To unlock unlimited use, [buy Lodestar ($5)](https://buy.polar.sh/polar_cl_P6wdx4gfJlj9ZB8GT7sUdyGNjeVMac2CZ9G4K1M8gFz) and run **Lodestar: Enter License Key** with the key from your receipt.
 
 In Copilot Chat, `@lodestar` makes a map, and `/review` and `/explain` work there too.
